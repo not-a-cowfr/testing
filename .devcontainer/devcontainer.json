@@ -1,0 +1,16 @@
+{
+    "name": "Codespaces Init",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.profiles.linux": {
+                    "nu": {
+                        "path": "/usr/bin/nu"
+                    }
+                },
+                "terminal.integrated.defaultProfile.linux": "nu"
+            }
+        }
+    }
+}
