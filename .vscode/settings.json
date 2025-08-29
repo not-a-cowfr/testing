@@ -1,4 +1,5 @@
 {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "git.ignoreLimitWarning": true,
 }

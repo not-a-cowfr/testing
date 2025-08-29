@@ -15,3 +15,7 @@ rustup component add clippy --toolchain nightly
 touch ~/.config/nushell/env.nu
 echo "\$env.config.buffer_editor = \"code\"" > ~/.config/nushell/env.nu
 echo "\$env.config.show_banner = false" >> ~/.config/nushell/env.nu
+
+curl -fsSL https://bun.sh/install | bash
+bash
+bun i
