@@ -3,6 +3,7 @@ use serde::{Deserialize, Serialize};
 use crate::hex::Hex;
 
 mod hex;
+mod local_storage;
 mod tests;
 
 #[derive(Deserialize, Serialize, Debug, PartialEq)]
